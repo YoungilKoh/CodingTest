@@ -8,15 +8,15 @@ int N;
 int map[N_MAX][N_MAX];
 
 int main() {
+  freopen("B1938_BFS_input.txt", "r", stdin);
+  std::cin >> N;
 
-    freopen("B1938_BFS_input.txt","r",stdin);
-    std::cin >> N;
-
-    for (int i = 1; i<= N; ++i) {
-        for (int j = 1; j<= N; ++j) {
-            std::scanf("s", map[i][j]);
-        }
+  for (int i = 1; i <= N; ++i) {
+    for (int j = 1; j <= N; ++j) {
+      std::scanf("s", map[i][j]);
+      std::cout << "helpme";
     }
+  }
 
-    return 0;
+  return 0;
 }
